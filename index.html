@@ -151,37 +151,43 @@
 <script>
 /* ---------- SVG (shared, language-neutral labels injected) ---------- */
 function diagram(L){return `
-<svg viewBox="0 0 640 780" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+<svg viewBox="0 0 640 800" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
  <text x="20" y="18" fill="#C8102E" font-size="11" letter-spacing="2">${L.plan}</text>
  <rect x="70" y="40" width="500" height="333" fill="#FFFFFF" stroke="#C9C4BC" stroke-dasharray="5 4"/>
  <rect x="70" y="40" width="500" height="10" fill="#1A1A1E"/>
- <text x="320" y="32" fill="#1A1A1E" font-size="11" text-anchor="middle">${L.wall} · 3.0m</text>
- <rect x="70" y="50" width="500" height="207" fill="#EFEDE8"/>
- <text x="320" y="150" fill="#8A8A92" font-size="11" text-anchor="middle">${L.staff}</text>
- <text x="320" y="168" fill="#8A8A92" font-size="10" text-anchor="middle">1.25m</text>
- <rect x="170" y="248" width="300" height="125" fill="#E2DED7" stroke="#1A1A1E"/>
- <text x="320" y="300" fill="#1A1A1E" font-size="12" text-anchor="middle">${L.table}</text>
- <text x="320" y="320" fill="#66666F" font-size="11" text-anchor="middle">1800 × 750mm</text>
- <rect x="483" y="290" width="80" height="83" fill="#EEF0FB" stroke="#3A5BC7"/>
- <text x="523" y="325" fill="#3A5BC7" font-size="10" text-anchor="middle">${L.screen}</text>
- <text x="523" y="340" fill="#8A8A92" font-size="9" text-anchor="middle">${L.vert}</text>
- <rect x="77" y="290" width="80" height="83" fill="#E2DED7" stroke="#9A9AA3"/>
- <text x="117" y="330" fill="#66666F" font-size="10" text-anchor="middle">${L.gift}</text>
+ <text x="300" y="32" fill="#1A1A1E" font-size="11" text-anchor="middle">${L.wall} · 3.0m</text>
+
+ <rect x="483" y="58" width="80" height="70" fill="#EEF0FB" stroke="#3A5BC7"/>
+ <text x="523" y="88" fill="#3A5BC7" font-size="10" text-anchor="middle">${L.screen}</text>
+ <text x="523" y="103" fill="#8A8A92" font-size="9" text-anchor="middle">${L.vert}</text>
+ <rect x="483" y="228" width="80" height="60" fill="#E2DED7" stroke="#1A1A1E"/>
+ <text x="523" y="252" fill="#1A1A1E" font-size="9" text-anchor="middle">${L.smalltable}</text>
+ <text x="523" y="266" fill="#66666F" font-size="8" text-anchor="middle">600×450</text>
+ <text x="523" y="279" fill="#66666F" font-size="8" text-anchor="middle">${L.display}</text>
+
+ <text x="270" y="140" fill="#8A8A92" font-size="11" text-anchor="middle">${L.staff}</text>
+ <text x="270" y="157" fill="#8A8A92" font-size="10" text-anchor="middle">1.25m</text>
+
+ <rect x="120" y="248" width="330" height="125" fill="#E2DED7" stroke="#1A1A1E"/>
+ <text x="285" y="300" fill="#1A1A1E" font-size="12" text-anchor="middle">${L.table}</text>
+ <text x="285" y="320" fill="#66666F" font-size="11" text-anchor="middle">1800 × 750mm</text>
+ <text x="285" y="338" fill="#66666F" font-size="9" text-anchor="middle">${L.blackcloth}</text>
+
  <line x1="70" y1="405" x2="570" y2="405" stroke="#C8102E" stroke-width="2" stroke-dasharray="7 4"/>
  <text x="320" y="424" fill="#C8102E" font-size="11" text-anchor="middle">${L.throwline} · 2.2m</text>
 
  <text x="20" y="480" fill="#C8102E" font-size="11" letter-spacing="2">${L.elev}</text>
- <rect x="70" y="500" width="500" height="250" fill="#1A1A1E" stroke="#1A1A1E"/>
- <text x="320" y="528" fill="#8A8A92" font-size="9" text-anchor="middle">${L.mood}</text>
- <circle cx="320" cy="560" r="9" fill="#E23E58"/>
- <circle cx="278" cy="600" r="9" fill="#E23E58"/><circle cx="362" cy="600" r="9" fill="#E23E58"/>
- <circle cx="236" cy="640" r="9" fill="#E23E58"/><circle cx="320" cy="640" r="9" fill="#E23E58"/><circle cx="404" cy="640" r="9" fill="#E23E58"/>
- <text x="425" y="564" fill="#F2EDE4" font-size="10">1.8m · A</text>
- <text x="425" y="604" fill="#F2EDE4" font-size="10">1.5m · B</text>
- <text x="425" y="644" fill="#F2EDE4" font-size="10">1.2m · C</text>
- <rect x="190" y="675" width="260" height="58" fill="none" stroke="#54545E" stroke-dasharray="4 3"/>
- <text x="320" y="700" fill="#F2EDE4" font-size="12" text-anchor="middle">JUNG BEAUTY</text>
- <text x="320" y="718" fill="#8A8A92" font-size="9" text-anchor="middle">${L.logozone}</text>
+ <rect x="70" y="500" width="500" height="270" fill="#1A1A1E"/>
+ <text x="320" y="524" fill="#8A8A92" font-size="9" text-anchor="middle">${L.mood}</text>
+ <text x="320" y="700" fill="#F2EDE4" font-size="185" text-anchor="middle" font-weight="700" opacity="0.92">정</text>
+ <circle cx="320" cy="562" r="10" fill="#E23E58"/>
+ <circle cx="272" cy="606" r="10" fill="#E23E58"/><circle cx="368" cy="606" r="10" fill="#E23E58"/>
+ <circle cx="224" cy="650" r="10" fill="#E23E58"/><circle cx="320" cy="650" r="10" fill="#E23E58"/><circle cx="416" cy="650" r="10" fill="#E23E58"/>
+ <text x="452" y="566" fill="#F2EDE4" font-size="10">1.8m · A</text>
+ <text x="452" y="610" fill="#F2EDE4" font-size="10">1.5m · B</text>
+ <text x="452" y="654" fill="#F2EDE4" font-size="10">1.2m · C</text>
+ <rect x="196" y="536" width="248" height="132" fill="none" stroke="#54545E" stroke-dasharray="4 3"/>
+ <text x="320" y="756" fill="#8A8A92" font-size="9" text-anchor="middle">${L.jeongnote}</text>
 </svg>`}
 
 /* ---------- CONTENT ---------- */
@@ -189,11 +195,12 @@ const D = {
 ko:{
  brief:'브랜드 부스 브리프', sub:'2026년 10월 30일 (금) · 남산뜰, 이태원 · 3F',
  cd1:'참가확정 마감까지', cd2:'행사까지', cd3:'게스트', cd4:'부스 크기',
- foot1:'최종 업데이트 2026-08-19', foot2:'Jung Beauty 글로벌팀',
- svg:{plan:'평면도',wall:'백월 (게임벽)',staff:'스태프 존',table:'테이블',screen:'스크린',
-      vert:'세로형',gift:'기프트 박스',throwline:'투척 라인',elev:'정면도 · 컵 배치',
-      mood:'상단 데코 존',logozone:'로고 존 · 0~1.2m'},
- tabs:['개요','부스','구매·렌탈','기프트·경품','일정'],
+ foot1:'최종 업데이트 2026-08-20', foot2:'Jung Beauty 글로벌팀',
+ svg:{plan:'평면도',wall:'백월 (게임벽)',staff:'스태프 존',table:'메인 테이블',screen:'스크린',
+      vert:'세로형',smalltable:'작은 테이블',display:'제품 전시',blackcloth:'검은 천 씌움',
+      throwline:'투척 라인',elev:'정면도 · 백월',mood:'상단 데코 존',
+      jeongnote:'대형 「정」 위에 컵 부착'},
+ tabs:['개요','부스','준비물','기프트·경품','일정'],
  body:[
 `<h2>이벤트</h2>
 <div class="tbl-scroll"><table>
@@ -224,7 +231,7 @@ ko:{
 <div class="card"><h3 style="margin-top:0">주최 제공</h3>
 <ul><li>부스 공간 · 위치</li><li>F&amp;B</li><li>포토부스 · 포토월</li><li>DJ · 댄스플로어</li><li>공식 포토/비디오그래퍼</li></ul></div>
 <div class="card"><h3 style="margin-top:0">우리 준비</h3>
-<ul><li>테마 데코 (맑음 · 우천 2안)</li><li>스태프 코스튬</li><li>샘플 + 트릭오어트릿 200개</li><li>브랜드 사이니지</li><li>영상 스크린 · 게임 소품</li></ul></div>
+<ul><li>테마 데코 (맑음 · 우천 2안)</li><li>스태프 코스튬</li><li>샘플 + 트릭오어트릿 사탕 200개</li><li>브랜드 사이니지</li><li>영상 스크린 · 게임 소품</li></ul></div>
 </div>
 
 <div class="note"><b>우천 프로토콜</b> — 전날 12시까지 단톡방 통보. 실내로 이동하므로
@@ -238,80 +245,175 @@ ko:{
 
 <h2>실측 치수</h2>
 <div class="tbl-scroll"><table>
-<tr><th>항목</th><th>치수</th><th>이유</th></tr>
-<tr><td><b>백월 가로</b></td><td>3.0m (최소 2.4m)</td><td>정면 폭 전체를 덮어야 배경이 안 끊김</td></tr>
-<tr><td><b>백월 높이</b></td><td>2.5m (최소 2.2m)</td><td>빗나간 빈백이 넘어가지 않는 높이</td></tr>
-<tr><td><b>테이블</b></td><td>1800 × 750mm</td><td>좌우 600mm씩 여유 확보</td></tr>
-<tr><td><b>테이블 높이</b></td><td>720~750mm</td><td>표준 듀라테이블</td></tr>
-<tr><td><b>투척 거리</b></td><td>2.2m</td><td>비어퐁(2.4m)보다 짧게 → 성공률 ↑</td></tr>
-<tr><td><b>스크린 발판</b></td><td>600 × 600mm 이내</td><td>우측 여유 공간에 들어가야 함</td></tr>
+<tr><th>항목</th><th>치수</th><th>비고</th></tr>
+<tr><td><b>백월 가로</b></td><td>3.0m (최소 2.4m)</td><td>정면 폭 전체</td></tr>
+<tr><td><b>백월 높이</b></td><td>2.5m (최소 2.2m)</td><td>빗나간 빈백 차단</td></tr>
+<tr><td><b>메인 테이블</b></td><td>1800 × 750 × H720~750mm</td><td>렌탈 · 검은 천 씌움</td></tr>
+<tr><td><b>작은 테이블</b></td><td>600 × 450 × H700mm</td><td>제품 전시용 · 스크린 앞</td></tr>
+<tr><td><b>스크린</b></td><td>43~55인치 세로형</td><td>발판 600 × 600mm 이내 · 작은 테이블 뒤</td></tr>
+<tr><td><b>투척 거리</b></td><td>2.2m</td><td>비어퐁(2.4m)보다 짧게</td></tr>
 </table></div>
 
-<h2>백월 3단 구성</h2>
+<h2>백월 고정 — 가장 중요한 부분 <span class="pill p-hot">핵심</span></h2>
+<div class="note"><b>3층 야외에 2.5m 높이 천을 세웁니다. 이건 돛입니다.</b>
+바람 한 번에 넘어지면 부스도 제품도 게스트도 위험합니다. 고정 방식부터 확정하세요.</div>
+<div class="tbl-scroll"><table>
+<tr><th>준비물</th><th>스펙</th><th>비고</th></tr>
+<tr><td><b>배경 지지대</b></td><td>가로바 3m + 수직폴 2.5m, 높이·폭 조절형</td><td>렌탈 또는 구매</td></tr>
+<tr><td><b>하단 웨이트</b></td><td>모래주머니 또는 워터백 4개 이상</td><td><b>야외 필수.</b> 폴 밑동에 고정</td></tr>
+<tr><td>백월 천</td><td>3.0 × 2.5m · 블랙 무광</td><td>봉집(주머니) 방식이 설치 빠름</td></tr>
+<tr><td>클램프 / 집게</td><td>6~8개</td><td>천 상단 고정</td></tr>
+<tr><td>케이블타이 · 노끈</td><td>넉넉히</td><td>지지대 결속 · 응급 보강</td></tr>
+</table></div>
+<p style="font-size:13.5px;color:#66666F">주최 측에 <b>난간·기둥에 결속 가능한지</b> 확인하세요. 결속만 되면 안정성이 확 올라갑니다. (10/23 로드인 상세 제출 시)</p>
+
+<h2>「정」을 어디에 크게 넣을까 <span class="pill p-hot">결정</span></h2>
+<div class="ab win"><b>백월 중앙 — 컵을 「정」 위에 부착 <span class="pill p-hot">권장</span></b>
+<div class="pro">게스트가 던지는 내내 정면으로 봅니다. 사진·영상에 무조건 잡힙니다</div>
+<div class="pro">글자 위에 컵이 붙어도 한 글자라 인지에 지장 없습니다</div>
+<div class="pro">백월 2.5m를 한 번에 다 씁니다. 하단이 비지 않습니다</div>
+<div class="con">글자와 컵이 겹쳐 시안 작업이 필요합니다</div></div>
+<div class="ab"><b>테이블 전면</b>
+<div class="pro">제작 간단 (천에 인쇄 또는 부착)</div>
+<div class="con">게스트·제품·도어기프트에 계속 가려집니다</div>
+<div class="con">테이블 높이 750mm — 서 있는 사람 시야에서 아래로 빠집니다</div></div>
+<div class="note"><b>백월로 갑니다.</b> 「정」은 높이 1.5m 이상, 아이보리 또는 화이트.
+컵 6개는 글자 위에 배치. 이러면 게임·브랜딩·포토존이 한 면에서 다 해결됩니다.</div>
+
+<h2>게임 타겟 만들기</h2>
+<p style="color:#66666F;font-size:14px">천에 컵을 직접 붙이면 무게로 처지고 던질 때마다 흔들립니다. 보드가 필요합니다.</p>
+<div class="tbl-scroll"><table>
+<tr><th>방식</th><th>구성</th><th>판단</th></tr>
+<tr><td><b>A. 검은 종이컵 + 보드</b></td><td>폼보드 1200×900mm에 컵 6개 부착 → 보드를 백월에 고정</td><td><b>권장</b> — 사전 제작 가능, 현장 작업 최소</td></tr>
+<tr><td>B. 프린트 타겟 + 구멍</td><td>보드에 원형 구멍 6개 + 뒤에 주머니</td><td>제작 난이도 높음. 시간 부족</td></tr>
+<tr><td>C. 천에 직접 부착</td><td>양면테이프 · 벨크로</td><td>비추천 — 처짐, 낙하</td></tr>
+</table></div>
+<div class="note"><b>셋업 시간이 1시간(16~17시)뿐입니다.</b> 보드에 컵을 미리 다 붙여서 가져가고,
+현장에서는 보드만 백월에 고정하세요. 현장에서 컵을 붙이기 시작하면 오픈에 못 맞춥니다.</div>
+<ul>
+<li>보드 고정: 백월 지지대 가로바에 케이블타이로 매달거나, 폴에 클램프</li>
+<li>컵 색: <b>블랙</b> 종이컵. 레드컵으로 하면 「정」과 컬러가 싸웁니다</li>
+<li>컵 지름 90mm 기준 → 빈백 60~70mm</li>
+</ul>
+
+<h2>스크린 · 제품 전시</h2>
 <div class="card">
 <ul>
-<li><b>상단 (1.8m 위)</b> — 거미줄 · 다크로즈 데코</li>
-<li class="k"><b>중단 (1.2~1.8m)</b> — 컵 존. 1.25m × 0.85m</li>
-<li><b>하단 (0~1.2m)</b> — 로고 · 그래픽 존</li>
+<li>배치: <b>스크린은 뒤, 작은 테이블은 앞.</b> 테이블 위에 제품 전시</li>
+<li>작은 테이블 600 × 450 × H700mm · 검은 천</li>
+<li>스크린 43~55인치 세로형, 발판 600 × 600mm 이내</li>
+<li class="k">밝기 700nit 이상 — 야외 17~18시 잔광에 일반 TV는 안 보임</li>
+<li>USB 자동 루프 재생 기종</li>
 </ul>
-<p style="font-size:13.5px;color:#66666F;margin-top:10px">
-게임에 안 쓰는 하단이 그대로 브랜딩 자리가 됩니다. 3m × 2.5m를 한 뼘도 안 버립니다.</p>
 </div>
-
-<h2>테이블을 앞에 두는 이유</h2>
+<h3>재생할 영상</h3>
 <ul>
-<li>게스트가 테이블 뒤(부스 밖)에서 던짐 → 테이블이 저지선</li>
-<li>부스 안으로 안 들어와서 200명 회전이 빠름</li>
-<li>제품 분실 방지</li>
-<li class="k">테이블보를 바닥까지 드롭 → 재고 박스를 밑에 숨김 (유일한 수납)</li>
-</ul>
-
-<h2>영상 스크린 — 세로형</h2>
-<div class="card">
-<ul>
-<li>43~55인치 세로형. 폭을 적게 먹어 우측 600mm에 들어감</li>
-<li class="k"><b>밝기 700nit 이상</b> — 야외 17~18시 잔광에 일반 TV는 안 보임</li>
-<li>USB 자동 루프 재생 지원 기종 (노트북 연결은 야외에서 사고 남)</li>
-<li><b>9:16 세로 영상 필요</b> — 기존 릴스·틱톡 자산 재활용 가능</li>
+<li>기존 인스타 릴스 (9:16 그대로 사용 가능)</li>
+<li>제품 소개 영상</li>
+<li class="k">여러 편을 이어붙여 <b>계속 라이브로 도는</b> 형태. 30~60초 단위 컷</li>
 <li>무음 전제 + 자막 필수 (2F DJ 사운드가 올라옴)</li>
-<li>던지는 방향 반대편에 배치</li>
 </ul>
-</div>
 
-<h2>스태프 코스튬 · 브로치</h2>
-<div class="grid2">
-<div class="card"><h3 style="margin-top:0">웬즈데이 룩</h3>
-<ul><li>블랙 원피스 / 피나포어 (무광)</li><li>화이트 셔츠 칼라 레이어드</li>
-<li>검정 스타킹 + 로퍼</li><li>양갈래 땋기</li>
-<li class="k">창백한 베이스 + 다크 립 (레드 립 금지)</li></ul>
-<p style="font-size:13px;color:#66666F;margin-top:8px">헤어 브랜드이므로 스태프 헤어 자체가 제품 데모. 행사 전 자사 제품으로 스타일링.</p></div>
-<div class="card"><h3 style="margin-top:0">네임 브로치</h3>
-<ul><li>3~4cm · 무광 앤틱실버 또는 매트블랙</li><li>각인: JUNG BEAUTY + 이름</li>
-<li>오벌/실드형 (라운드는 사원증 느낌)</li><li>자석식 (원단 손상 방지)</li>
-<li class="k">각인 리드타임 2~3주 → 9월 초 발주</li></ul></div>
+<h2>스태프 코스튬 — 캐릭터 4인</h2>
+<div class="tbl-scroll"><table>
+<tr><th>캐릭터</th><th>키 포인트</th><th>컬러</th></tr>
+<tr><td><b>웬즈데이</b></td><td>블랙 원피스 + 화이트 칼라, 양갈래 땋기</td><td>블랙 · 화이트</td></tr>
+<tr><td><b>모티시아 (엄마)</b></td><td>블랙 롱드레스, 긴 생머리, 창백한 피부</td><td>블랙</td></tr>
+<tr><td><b>이니드 (친구)</b></td><td>밝고 러블리한 룩</td><td><b>원작은 무지개색</b></td></tr>
+<tr><td>비앙카 또는 그랜드마마</td><td>4번째 캐릭터 후보</td><td>블랙 · 네이비</td></tr>
+</table></div>
+<div class="note"><b>이니드 주의.</b> 원작 캐릭터가 무지개색이라 그대로 하면
+"금지된 컬러 한 점" 컨셉이 무너집니다. 넣으시려면 <b>흑백 + 실버 버전으로 재해석</b>하세요.
+실루엣은 이니드인데 컬러만 뺀 형태면 컨셉도 지키고 캐릭터도 살아납니다.</div>
+
+<h2>이름표 — 교복 명찰</h2>
+<div class="card hi" data-tag="아이디어 채택">
+<p>한국 교복 명찰이 웬즈데이 컨셉에 정확히 맞습니다. 네버모어는 학교니까요.
+앞서 검토한 금속 브로치보다 이쪽이 낫습니다.</p>
+<div class="tbl-scroll"><table>
+<tr><th></th><th>교복 명찰</th><th>금속 브로치</th></tr>
+<tr><td>컨셉 적합도</td><td><b>높음 (학교)</b></td><td>보통</td></tr>
+<tr><td>제작 기간</td><td>3~5일</td><td>2~3주</td></tr>
+<tr><td>단가</td><td>낮음</td><td>높음</td></tr>
+<tr><td>가독성</td><td>한국 관객에게 즉시 읽힘</td><td>작아서 잘 안 보임</td></tr>
+</table></div>
+<ul>
+<li>사양: 흰 바탕 + 검은 자수 또는 아크릴. 왼쪽 가슴</li>
+<li>표기: <b>JUNG BEAUTY</b> (윗줄) + 이름 (아랫줄)</li>
+<li>부착: 자석식 (원피스 원단 손상 방지)</li>
+</ul>
 </div>`,
 
-`<h2>구매 · 렌탈 현황</h2>
+`<h2>구매 · 렌탈 검토 목록</h2>
+<div class="note"><b>아직 발주한 건 없습니다.</b> 전부 검토 단계입니다.</div>
 <div class="tbl-scroll"><table>
 <tr><th>품목</th><th>구분</th><th>업체</th><th>상태</th></tr>
-<tr><td><b>백월</b> (블랙 백드롭)</td><td>구매</td><td><a href="https://smartstore.naver.com/moveonn/products/13713175192" target="_blank">moveonn</a></td><td><span class="pill p-go">주문 8/19</span></td></tr>
-<tr><td><b>게임 소품</b></td><td>구매</td><td><a href="https://smartstore.naver.com/event-pang/products/4482000032" target="_blank">event-pang</a></td><td><span class="pill p-go">주문 8/19</span></td></tr>
-<tr><td><b>영상 스크린</b> 세로형</td><td>렌탈</td><td><a href="https://smartstore.naver.com/jellarental/products/6111872711" target="_blank">젤라렌탈</a></td><td><span class="pill p-wait">검토</span></td></tr>
-<tr><td><b>듀라테이블 1800</b></td><td>렌탈</td><td><a href="https://toprent.co.kr/product/%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%ED%96%89%EC%82%AC%EC%9A%A9-%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%93%80%EB%9D%BC%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%EB%8C%80%EC%97%AC-%EC%9E%84%EB%8C%80-1800/49/" target="_blank">탑렌트</a> · 9,000원</td><td><span class="pill p-wait">검토</span></td></tr>
-<tr><td>테이블 (대안)</td><td>렌탈</td><td>네이버 · ID 53196368770</td><td><span class="pill p-wait">비교</span></td></tr>
+<tr><td><b>백월 천</b> (블랙)</td><td>구매</td><td><a href="https://smartstore.naver.com/moveonn/products/13713175192" target="_blank">moveonn</a></td><td><span class="pill p-wait">검토</span></td></tr>
+<tr><td><b>게임 소품</b></td><td>구매</td><td><a href="https://smartstore.naver.com/event-pang/products/4482000032" target="_blank">event-pang</a></td><td><span class="pill p-wait">검토</span></td></tr>
+<tr><td><b>스크린</b> 세로형</td><td>렌탈</td><td><a href="https://smartstore.naver.com/jellarental/products/6111872711" target="_blank">젤라렌탈</a></td><td><span class="pill p-wait">검토</span></td></tr>
+<tr><td><b>메인 테이블 1800</b></td><td>렌탈</td><td><a href="https://toprent.co.kr/product/%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%ED%96%89%EC%82%AC%EC%9A%A9-%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%93%80%EB%9D%BC%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%EB%8C%80%EC%97%AC-%EC%9E%84%EB%8C%80-1800/49/" target="_blank">탑렌트</a> · 9,000원</td><td><span class="pill p-wait">검토</span></td></tr>
+<tr><td>테이블 (대안)</td><td>렌탈</td><td>네이버 · ID 53196368770</td><td><span class="pill p-wait">검토</span></td></tr>
 <tr><td>할로윈 빈백</td><td>구매</td><td>Alibaba</td><td><span class="pill p-hot">국내 대체 권장</span></td></tr>
 </table></div>
 <p style="font-size:12.5px;color:#9A9AA3">탑렌트 문의 010-6251-9969 · 사이트에 규격·배송비 미표기</p>
 
-<h2>미발주</h2>
-<div class="tbl-scroll"><table>
-<tr><th>품목</th><th>발주 시점</th></tr>
-<tr><td>스태프 코스튬</td><td><b>9월 초</b> — 할로윈 품절 전</td></tr>
-<tr><td>네임 브로치 (각인)</td><td><b>9월 초</b> — 제작 2~3주</td></tr>
-<tr><td>테이블보 (블랙 무광, 바닥 드롭)</td><td>9월</td></tr>
-<tr><td>빈백 (콩주머니) 12개</td><td>9월 — 국내 조달</td></tr>
-<tr><td>브랜드 사이니지 / A6 카드 / 제품 디스플레이</td><td>9~10월</td></tr>
-</table></div>
+<h2>준비물 체크리스트</h2>
+
+<h3>1. 백월</h3>
+<ul>
+<li class="k">배경 지지대 (가로바 3m + 수직폴 2.5m)</li>
+<li class="k">하단 웨이트 — 모래주머니 / 워터백 4개 이상</li>
+<li>백월 천 3.0 × 2.5m 블랙 무광</li>
+<li>클램프 6~8개</li>
+<li>「정」 대형 레터링 (제작)</li>
+</ul>
+
+<h3>2. 테이블</h3>
+<ul>
+<li>메인 테이블 1800 × 750 (렌탈)</li>
+<li>메인 테이블용 검은 천 — 바닥까지 드롭</li>
+<li>작은 테이블 600 × 450 (제품 전시용)</li>
+<li>작은 테이블용 검은 천</li>
+</ul>
+
+<h3>3. 게임</h3>
+<ul>
+<li>폼보드 1200 × 900mm (컵 부착용)</li>
+<li>검은 종이컵 6개 + 예비</li>
+<li>빈백(콩주머니) 60~70mm × 12개</li>
+<li>보드 고정용 케이블타이 · 클램프</li>
+</ul>
+
+<h3>4. 데코 소품</h3>
+<ul>
+<li class="k"><b>동백(카멜리아) 조화</b> — 다크 레드. 테이블 · 백월 포인트</li>
+<li>촛대 (LED 캔들 — 야외라 실화 금지 가능성)</li>
+<li>블랙 레이스 러너</li>
+<li>거미줄 (인조)</li>
+<li>제품 디스플레이 스탠드 (A4~A5)</li>
+</ul>
+
+<h3>5. 트릭오어트릿</h3>
+<ul>
+<li class="k"><b>사탕 200개분</b> — 블랙 · 레드 포장 위주로 톤 맞추기</li>
+<li>사탕 담을 볼(bowl) 또는 바구니 — 블랙</li>
+</ul>
+
+<h3>6. 공구 · 소모품</h3>
+<ul>
+<li>가위 · 커터칼</li>
+<li>양면테이프 · 강력테이프 · 마스킹테이프</li>
+<li>노끈 · 케이블타이</li>
+<li>줄자 · 매직 · 여분 건전지</li>
+<li>물티슈 · 쓰레기봉투</li>
+</ul>
+
+<h3>7. 스태프</h3>
+<ul>
+<li>코스튬 4인분 (웬즈데이 · 모티시아 · 이니드 · 4번째)</li>
+<li>교복 명찰 4개 + 예비</li>
+<li>메이크업 (창백 베이스 · 다크 립)</li>
+</ul>
 
 <h2>빈백 vs 볼 — 빈백입니다</h2>
 <div class="note"><b>우리 부스는 3층 야외입니다.</b> 공은 굴러서 계단·난간 밖으로 떨어집니다.
@@ -322,30 +424,49 @@ ko:{
 <tr><td>회수</td><td>제자리에 떨어짐</td><td>사방으로 흩어짐</td></tr>
 <tr><td>3층 야외</td><td>안전</td><td><b>유실 위험</b></td></tr>
 </table></div>
-<p style="font-size:13.5px;color:#8A8A92">필요 수량 12개. Alibaba는 MOQ가 커서 부적합.
-네이버 "콩주머니 / 빈백토스" 소량 구매 권장. 컵 90mm 기준 빈백 60~70mm.</p>
+<p style="font-size:13.5px;color:#66666F">필요 수량 12개. Alibaba는 MOQ가 커서 부적합.
+네이버 "콩주머니 / 빈백토스" 소량 구매 권장.</p>
 
 <h2>렌탈 견적 시 확인</h2>
 <ul>
 <li class="k"><b>3층 운반</b> — 엘리베이터 유무. 여기서 견적이 크게 갈림</li>
-<li>총액 = 렌탈비 + 배송 + 설치 + 회수 (배송비가 렌탈비를 넘는 경우 많음)</li>
+<li>총액 = 렌탈비 + 배송 + 설치 + 회수</li>
 <li>이태원 배송 — 남산뜰은 언덕·골목. 대형차 진입 확인</li>
 <li>수령/반납 — 22시 종료. 야간 회수 불가 시 10/31 반납 조건 필수</li>
 </ul>
 <div class="note">렌탈 2건(스크린·테이블)의 수령·반납을 <b>10/29 수령 → 10/31 반납</b>으로
 통일하면 동선이 한 번에 끝납니다.</div>`,
 
-`<h2>도어기프트 — 200명</h2>
-<div class="card hi" data-tag="수량 갭">
-<p>한국 제작 캐파는 <b>30ml 버블 65개</b>. 당초 100개 전제였으므로 35개 부족합니다.</p>
+`<h2>싱가포르팀 확정 <span class="pill p-done">확정</span></h2>
+
+<h3>굿디백</h3>
+<ul>
+<li>문어 괄사 (Octopus guasha)</li>
+<li>토너 200ml</li>
+</ul>
+
+<h3>부스 디스플레이</h3>
+<ul>
+<li class="k"><b>헤어 오일</b> — 바로 귀가하는 게스트는 사용 가능. 이어서 외출하는 게스트에겐 권하지 않음</li>
+<li>페이스 요가 안내물</li>
+<li>괄사 사용법 안내물</li>
+<li class="k"><b>PR 카드</b> — 프로모션 조건은 인쇄하지 않음. <b>링크트리 QR만</b> 삽입 (Yixuan 담당)</li>
+</ul>
+<div class="note">PR 카드에 프로모션 조건을 안 넣는 건 맞는 판단입니다. 조건은 바뀌는데
+인쇄물은 못 바꿉니다. QR로 빼면 행사 후에도 랜딩을 계속 갱신할 수 있습니다.</div>
+
+<h2>도어기프트 — 200명</h2>
 <div class="tbl-scroll"><table>
-<tr><td>7초 카멜리아 (전원)</td><td style="text-align:right"><b>200</b></td></tr>
-<tr><td>버블클렌저 30ml (한국)</td><td style="text-align:right">65</td></tr>
-<tr><td>버블클렌저 (SG)</td><td style="text-align:right">50</td></tr>
-<tr><td>노워시</td><td style="text-align:right">50</td></tr>
-<tr><td><b>세컨 아이템 합계</b></td><td style="text-align:right"><b style="color:#A80D26">165 / 200</b></td></tr>
+<tr><th></th><th>옵션 1</th><th>옵션 2</th></tr>
+<tr><td>7초 카멜리아</td><td>200</td><td>200</td></tr>
+<tr><td>버블클렌저 (한국 제작)</td><td>100 → <b>실제 65</b></td><td>—</td></tr>
+<tr><td>버블클렌저 (SG 발송)</td><td>50</td><td>—</td></tr>
+<tr><td>노워시</td><td>50</td><td>100</td></tr>
+<tr><td><b>세컨 아이템 합계</b></td><td><b style="color:#A80D26">165 / 200</b></td><td>100 / 200</td></tr>
 </table></div>
-<p style="font-size:13.5px;color:#8A8A92">→ 35명은 7초 카멜리아 단품만 받게 됨</p>
+
+<div class="card hi" data-tag="수량 갭">
+<p>한국 제작 캐파는 <b>30ml 버블 65개</b>. 당초 100개 전제였으므로 <b>35개 부족</b>합니다.</p>
 </div>
 
 <h3>갭 메우는 방법</h3>
@@ -358,25 +479,24 @@ ko:{
 <div class="ab"><b>C. 부족분 35명 사쉐 대체</b>
 <div class="pro">별도 조달 불필요</div>
 <div class="con">체감 가치 급락. 현장에서 티가 남</div></div>
-<div class="note"><b>A → 불가 시 B.</b> C는 최후 수단. 크리에이터·VIP가 섞인 자리라
-35명만 다른 걸 받으면 바로 티가 납니다.</div>
+<div class="note"><b>A → 불가 시 B.</b> C는 최후 수단.</div>
 
-<h2>게임 & 경품</h2>
-<p style="color:#66666F;font-size:14px">블랙 백월의 레드컵에 빈백 던져 넣기. 1인 3회.
+<h2>게임 경품</h2>
+<p style="color:#66666F;font-size:14px">블랙 백월의 컵에 빈백 던져 넣기. 1인 3회.
 컵에 들어가면 해당 등급 경품. 미당첨 시 사쉐 증정.</p>
 <div class="tbl-scroll"><table>
 <tr><th>등급</th><th>높이</th><th>컵</th><th>배정 예정</th></tr>
-<tr><td><b>A</b></td><td>1.8m</td><td>1구</td><td>세럼 (최상위)</td></tr>
-<tr><td><b>B</b></td><td>1.5m</td><td>2구</td><td>샴푸 / 카멜리아 500ml</td></tr>
-<tr><td><b>C</b></td><td>1.2m</td><td>3구</td><td>토너 / 노워시</td></tr>
+<tr><td><b>A</b></td><td>1.8m</td><td>1구</td><td><b style="color:#A80D26">미정</b> — 세럼 후보</td></tr>
+<tr><td><b>B</b></td><td>1.5m</td><td>2구</td><td>7초 카멜리아 500ml / 샴푸</td></tr>
+<tr><td><b>C</b></td><td>1.2m</td><td>3구</td><td>토너 200ml / 노워시 200ml</td></tr>
 </table></div>
 <div class="note">컵에는 <b>제품명 대신 A/B/C만</b> 표기하세요.
 재고가 떨어져 다른 제품으로 대체해도 게스트가 눈치채지 못합니다.</div>
 
-<h3>확보 경품</h3>
+<h3>확보 수량</h3>
 <ul>
 <li>노워시 200ml × 20 · 7초 카멜리아 500ml × 20 · 토너 200ml × 20</li>
-<li>토너 미니 50ml × 100</li>
+<li>토너 미니 50ml × 100 <span style="color:#66666F">(한국 재고 · Lora)</span></li>
 <li>7초 카멜리아 사쉐 × 200 (미당첨자용)</li>
 </ul>
 
@@ -385,18 +505,12 @@ ko:{
 <tr><th>제품</th><th>확인</th><th>용도</th></tr>
 <tr><td>7초 카멜리아 500ml</td><td>수량</td><td>경품 B</td></tr>
 <tr><td><b>샴푸</b></td><td>미판매 잔여분</td><td>경품 B — 재고 소진 겸용</td></tr>
-<tr><td><b>세럼</b></td><td>수량</td><td>경품 A 또는 KOL 키트</td></tr>
+<tr><td><b>세럼</b></td><td>수량</td><td>경품 A — 지금 비어 있음</td></tr>
 <tr><td><b>CO2 마스크</b></td><td>시연 가능 여부</td><td>체험 콘텐츠</td></tr>
 <tr><td>노워시 / 토너</td><td>수량</td><td>경품 C</td></tr>
 </table></div>
 <div class="note"><b>유통기한 필수 확인.</b> 10/30 배포 기준 최소 12개월 이상 남은 것만.
-크리에이터·VIP한테 기한 짧은 제품을 주면 그게 콘텐츠로 나갑니다.
-단상자 없는 낱개는 경품 체감 가치가 급락합니다.</div>
-
-<h3>CO2 마스크는 경품보다 체험으로</h3>
-<div class="ab win"><b>현장 시연</b>
-<div class="pro">부스가 "제품 주는 곳"에서 "경험하는 곳"으로 바뀜. 게스트 투표에 유리</div>
-<div class="con">스태프 1명 전담 필요. 시연 시간·정리 부담</div></div>`,
+크리에이터·VIP한테 기한 짧은 제품을 주면 그게 콘텐츠로 나갑니다.</div>`,
 
 `<h2>주최 측 제출 마감</h2>
 <div class="tbl-scroll"><table>
@@ -405,32 +519,34 @@ ko:{
 <tr><td>9/18</td><td>부스 디자인 컨셉안</td><td><span class="pill p-wait">대기</span></td></tr>
 <tr><td>10/9</td><td>스태프 명단 · 코스튬 · 샘플</td><td><span class="pill p-wait">대기</span></td></tr>
 <tr><td>10/16</td><td>전력 요구사항</td><td><span class="pill p-wait">스크린 W 합산</span></td></tr>
-<tr><td>10/23</td><td>로드인 상세</td><td><span class="pill p-wait">대기</span></td></tr>
+<tr><td>10/23</td><td>로드인 상세</td><td><span class="pill p-wait">난간 결속 문의 포함</span></td></tr>
 <tr><td><b>10/30</b></td><td>행사 당일 · 16시 셋업</td><td></td></tr>
 </table></div>
 
 <h2>액션 아이템</h2>
 <div class="tbl-scroll"><table>
 <tr><th>#</th><th>내용</th><th>기한</th></tr>
-<tr><td>1</td><td><b>참가 확정 회신</b> + 컨택 포인트 지정<br><span style="color:#66666F;font-size:12.5px">이때 3F 엘리베이터 유무도 같이 확인</span></td><td><b style="color:#A80D26">8/28</b></td></tr>
-<tr><td>2</td><td>백월 도착 후 검수 — 사이즈 · 무광 · 스탠드</td><td>8월</td></tr>
+<tr><td>1</td><td><b>참가 확정 회신</b> + 컨택 포인트 지정<br><span style="color:#66666F;font-size:12.5px">3F 엘리베이터 · 난간 결속 가능 여부 동시 문의</span></td><td><b style="color:#A80D26">8/28</b></td></tr>
+<tr><td>2</td><td><b>백월 고정 방식 확정</b> — 지지대 + 웨이트</td><td>8월</td></tr>
 <tr><td>3</td><td><b>본품 재고 체크</b> — 카멜리아 / 샴푸 / 세럼 / CO2</td><td>8월</td></tr>
 <tr><td>4</td><td>도어기프트 갭 35개 — SG에 85개 가능한지 확인</td><td>8월</td></tr>
-<tr><td>5</td><td>30ml 버블 65개 제작 착수</td><td>9월 초</td></tr>
-<tr><td>6</td><td>스태프 인원 확정 → <b>코스튬 · 브로치 발주</b></td><td><b>9월 초</b></td></tr>
-<tr><td>7</td><td>렌탈 확정 (스크린 · 테이블) — 3층 운반 조건 포함</td><td>9월</td></tr>
-<tr><td>8</td><td>9:16 루프 영상 제작 (무음 · 자막)</td><td>9~10월</td></tr>
-<tr><td>9</td><td>토너 한국 재고 수급</td><td>9월</td></tr>
-<tr><td>10</td><td>KOL PR 키트 패킹 · Yixuan A6 카드 수령</td><td>10월</td></tr>
+<tr><td>5</td><td>「정」 레터링 시안 + 컵 배치 도면</td><td>9월 초</td></tr>
+<tr><td>6</td><td>30ml 버블 65개 제작 착수</td><td>9월 초</td></tr>
+<tr><td>7</td><td>스태프 4인 확정 → 코스튬 · 교복 명찰 발주</td><td><b>9월 초</b></td></tr>
+<tr><td>8</td><td>렌탈 확정 (스크린 · 테이블) — 3층 운반 조건 포함</td><td>9월</td></tr>
+<tr><td>9</td><td>루프 영상 편집 (릴스 + 제품 영상 · 무음 · 자막)</td><td>9~10월</td></tr>
+<tr><td>10</td><td>사탕 · 동백 조화 · 데코 소품 구매</td><td>10월</td></tr>
+<tr><td>11</td><td>게임 보드 사전 제작 (컵 부착 완료 상태로)</td><td>10월 중순</td></tr>
 </table></div>
 
 <h2>지금 막혀 있는 것</h2>
 <div class="card hi" data-tag="의사결정 필요">
 <ul>
-<li class="k"><b>스태프 인원</b> — 정해져야 코스튬·브로치 발주 가능. 브로치는 각인 2~3주라 9월 초가 데드라인</li>
+<li class="k"><b>스태프 4인</b> — 캐릭터 배정과 인원이 정해져야 코스튬·명찰 발주 가능</li>
 <li class="k"><b>도어기프트 옵션</b> — SG 버블 85개 가능 여부에 따라 A/B 결정</li>
 <li class="k"><b>부스 정면 방향</b> — 3m 면인지 확인돼야 백월 사이즈 확정</li>
-<li class="k"><b>본품 재고</b> — 경품 A/B 등급 배정이 여기 달려 있음</li>
+<li class="k"><b>A등급 경품</b> — 세럼 재고가 없으면 최상단 컵이 빕니다</li>
+<li class="k"><b>백월 결속 가능 여부</b> — 난간·기둥에 묶을 수 있는지에 따라 지지대 스펙이 달라짐</li>
 </ul>
 </div>`
 ]},
@@ -438,11 +554,12 @@ ko:{
 en:{
  brief:'BRAND BOOTH BRIEF', sub:'Fri 30 Oct 2026 · Namsanddeul, Itaewon · 3F',
  cd1:'to confirm deadline', cd2:'to event day', cd3:'guests', cd4:'booth size',
- foot1:'Last updated 2026-08-19', foot2:'Jung Beauty Global Team',
- svg:{plan:'PLAN',wall:'Back wall (game wall)',staff:'Staff area',table:'Table',screen:'Screen',
-      vert:'vertical',gift:'Gift box',throwline:'Throw line',elev:'ELEVATION · cups',
-      mood:'Decor zone',logozone:'Logo zone · 0–1.2m'},
- tabs:['Overview','Booth','Buying','Gifts','Timeline'],
+ foot1:'Last updated 2026-08-20', foot2:'Jung Beauty Global Team',
+ svg:{plan:'PLAN',wall:'Back wall (game wall)',staff:'Staff area',table:'Main table',screen:'Screen',
+      vert:'vertical',smalltable:'Small table',display:'product display',blackcloth:'black cloth',
+      throwline:'Throw line',elev:'ELEVATION · back wall',mood:'Decor zone',
+      jeongnote:'Cups sit on the big JEONG letter'},
+ tabs:['Overview','Booth','Supplies','Gifts','Timeline'],
  body:[
 `<h2>The event</h2>
 <div class="tbl-scroll"><table>
@@ -459,7 +576,7 @@ en:{
 <p>Gothic academia. Black and white base with dark roses, candles, lace and cobweb.
 Plus <b>one forbidden splash of colour</b>.</p>
 <ul>
-<li class="k">Our colour is <b>red</b> — camellia flower + red game cups</li>
+<li class="k">Our colour is <b>red</b> — camellia flower + game cups</li>
 <li>Use red in 3 places only: cups / camellia / one logo</li>
 <li>Table cloth, back wall and costumes stay black and ivory</li>
 </ul>
@@ -473,7 +590,7 @@ Guests vote for the best booth, so decor quality drives our exposure.</div>
 <div class="card"><h3 style="margin-top:0">Host provides</h3>
 <ul><li>Booth space and spot</li><li>Food and drinks</li><li>Photo booth and photo wall</li><li>DJ and dance floor</li><li>Photographer and videographer</li></ul></div>
 <div class="card"><h3 style="margin-top:0">We bring</h3>
-<ul><li>Theme decor (dry + rain plan)</li><li>Staff costumes</li><li>Samples + 200 treats</li><li>Brand signage</li><li>Screen and game props</li></ul></div>
+<ul><li>Theme decor (dry + rain plan)</li><li>Staff costumes</li><li>Samples + 200 sweets</li><li>Brand signage</li><li>Screen and game props</li></ul></div>
 </div>
 
 <div class="note"><b>Rain plan</b> — the host tells us by 12:00 the day before.
@@ -487,80 +604,175 @@ Booths move inside, so our decor must work in <b>both layouts</b>.</div>`,
 
 <h2>Sizes</h2>
 <div class="tbl-scroll"><table>
-<tr><th>Item</th><th>Size</th><th>Why</th></tr>
-<tr><td><b>Back wall width</b></td><td>3.0m (min 2.4m)</td><td>Cover the full front so the background does not break</td></tr>
-<tr><td><b>Back wall height</b></td><td>2.5m (min 2.2m)</td><td>Stop bean bags from flying over</td></tr>
-<tr><td><b>Table</b></td><td>1800 × 750mm</td><td>Leaves 600mm free on each side</td></tr>
-<tr><td><b>Table height</b></td><td>720–750mm</td><td>Standard folding table</td></tr>
-<tr><td><b>Throw distance</b></td><td>2.2m</td><td>Shorter than beer pong (2.4m) → more wins</td></tr>
-<tr><td><b>Screen base</b></td><td>under 600 × 600mm</td><td>Must fit the right side space</td></tr>
+<tr><th>Item</th><th>Size</th><th>Note</th></tr>
+<tr><td><b>Back wall width</b></td><td>3.0m (min 2.4m)</td><td>Full front width</td></tr>
+<tr><td><b>Back wall height</b></td><td>2.5m (min 2.2m)</td><td>Stops bean bags flying over</td></tr>
+<tr><td><b>Main table</b></td><td>1800 × 750 × H720–750mm</td><td>Rental · black cloth on top</td></tr>
+<tr><td><b>Small table</b></td><td>600 × 450 × H700mm</td><td>Product display · in front of screen</td></tr>
+<tr><td><b>Screen</b></td><td>43–55 inch vertical</td><td>Base under 600 × 600mm · behind small table</td></tr>
+<tr><td><b>Throw distance</b></td><td>2.2m</td><td>Shorter than beer pong (2.4m)</td></tr>
 </table></div>
 
-<h2>Back wall in 3 parts</h2>
+<h2>Fixing the back wall — the key point <span class="pill p-hot">KEY</span></h2>
+<div class="note"><b>We put a 2.5m cloth outdoors on the 3rd floor. That is a sail.</b>
+If wind blows it over, the booth, the products and the guests are all at risk. Decide the fixing method first.</div>
+<div class="tbl-scroll"><table>
+<tr><th>Item</th><th>Spec</th><th>Note</th></tr>
+<tr><td><b>Backdrop stand</b></td><td>3m cross bar + 2.5m poles, adjustable</td><td>Rent or buy</td></tr>
+<tr><td><b>Weights</b></td><td>4+ sand bags or water bags</td><td><b>Must have outdoors.</b> At the pole base</td></tr>
+<tr><td>Wall cloth</td><td>3.0 × 2.5m · black matte</td><td>Pocket top is fastest to hang</td></tr>
+<tr><td>Clamps</td><td>6–8</td><td>Hold the cloth top</td></tr>
+<tr><td>Cable ties · rope</td><td>Plenty</td><td>Tie the frame, quick fixes</td></tr>
+</table></div>
+<p style="font-size:13.5px;color:#66666F">Ask the host if we can <b>tie the stand to a rail or a post</b>. That makes it much safer. (With the 23 Oct load-in form.)</p>
+
+<h2>Where to put the big "정" <span class="pill p-hot">DECIDE</span></h2>
+<div class="ab win"><b>Centre of the back wall — cups on top of the letter <span class="pill p-hot">best</span></b>
+<div class="pro">Guests look at it the whole time they throw. It is in every photo and video</div>
+<div class="pro">Cups cover a little of it, but it is one letter, so people still read it</div>
+<div class="pro">Uses the full 2.5m wall. No empty space at the bottom</div>
+<div class="con">We need a design that works with the cups on top</div></div>
+<div class="ab"><b>Front of the table</b>
+<div class="pro">Easy to make (print or stick on the cloth)</div>
+<div class="con">Guests, products and gift boxes cover it all night</div>
+<div class="con">Table is only 750mm high — it falls below eye level</div></div>
+<div class="note"><b>Go with the back wall.</b> Make "정" 1.5m or taller, in ivory or white.
+Put the 6 cups on top of it. Then the game, the brand and the photo spot all live on one wall.</div>
+
+<h2>Making the game target</h2>
+<p style="color:#66666F;font-size:14px">Cups stuck straight on the cloth will sag and shake. We need a board.</p>
+<div class="tbl-scroll"><table>
+<tr><th>Option</th><th>How</th><th>Call</th></tr>
+<tr><td><b>A. Black paper cups + board</b></td><td>Stick 6 cups on a 1200×900mm foam board, fix the board to the wall</td><td><b>Best</b> — build it before the day</td></tr>
+<tr><td>B. Printed target with holes</td><td>6 round holes in a board, pockets behind</td><td>Too hard to make in time</td></tr>
+<tr><td>C. Cups on the cloth</td><td>Tape or velcro</td><td>No — they sag and fall</td></tr>
+</table></div>
+<div class="note"><b>We only get 1 hour to set up (16:00–17:00).</b> Stick all the cups on the board first
+and bring it ready. On site we only fix the board to the wall.</div>
+<ul>
+<li>Fix the board: cable ties to the cross bar, or clamps on the poles</li>
+<li>Cup colour: <b>black</b>. Red cups would fight with the red in "정"</li>
+<li>Cup 90mm wide → bean bag 60–70mm</li>
+</ul>
+
+<h2>Screen and product display</h2>
 <div class="card">
 <ul>
-<li><b>Top (above 1.8m)</b> — cobweb and dark rose decor</li>
-<li class="k"><b>Middle (1.2–1.8m)</b> — cup zone. 1.25m × 0.85m</li>
-<li><b>Bottom (0–1.2m)</b> — logo and graphic zone</li>
+<li>Layout: <b>screen at the back, small table in front.</b> Products go on the table</li>
+<li>Small table 600 × 450 × H700mm · black cloth</li>
+<li>Screen 43–55 inch vertical, base under 600 × 600mm</li>
+<li class="k">700 nit or brighter — a normal TV is not visible at 17:00–18:00 outdoors</li>
+<li>Must play a USB loop by itself</li>
 </ul>
-<p style="font-size:13.5px;color:#66666F;margin-top:10px">
-The bottom is not used for the game, so it becomes our brand space. Nothing is wasted.</p>
 </div>
-
-<h2>Why the table goes in front</h2>
+<h3>What to play</h3>
 <ul>
-<li>Guests throw from behind the table, outside the booth</li>
-<li>They do not walk in, so 200 people move faster</li>
-<li>Products are safer</li>
-<li class="k">A floor-length cloth hides stock boxes under the table — our only storage</li>
-</ul>
-
-<h2>Screen — vertical</h2>
-<div class="card">
-<ul>
-<li>43–55 inch vertical. It is narrow and fits the right side</li>
-<li class="k"><b>700 nit or brighter</b> — a normal TV is not visible at 17:00–18:00 outdoors</li>
-<li>Must play a USB loop by itself (a laptop is risky outdoors)</li>
-<li><b>Video must be 9:16</b> — we can reuse our Reels and TikTok files</li>
+<li>Our Instagram Reels (already 9:16, use as they are)</li>
+<li>Product videos</li>
+<li class="k">Join them into one file that <b>plays all night</b>. Cuts of 30–60 seconds</li>
 <li>No sound, subtitles needed (DJ music comes up from 2F)</li>
-<li>Place it away from the throwing side</li>
 </ul>
-</div>
 
-<h2>Costumes and brooch</h2>
-<div class="grid2">
-<div class="card"><h3 style="margin-top:0">Wednesday look</h3>
-<ul><li>Black dress or pinafore (matte)</li><li>White collar on top</li>
-<li>Black tights and loafers</li><li>Two braids</li>
-<li class="k">Pale base, dark lip (no red lip)</li></ul>
-<p style="font-size:13px;color:#66666F;margin-top:8px">We are a hair brand, so staff hair is a live demo. Style it with our products before the event.</p></div>
-<div class="card"><h3 style="margin-top:0">Name brooch</h3>
-<ul><li>3–4cm · matte silver or black</li><li>Text: JUNG BEAUTY + name</li>
-<li>Oval or shield shape (round looks like an office badge)</li><li>Magnet type (no pin holes)</li>
-<li class="k">Engraving takes 2–3 weeks → order early Sep</li></ul></div>
+<h2>Costumes — 4 characters</h2>
+<div class="tbl-scroll"><table>
+<tr><th>Character</th><th>Key look</th><th>Colour</th></tr>
+<tr><td><b>Wednesday</b></td><td>Black dress + white collar, two braids</td><td>Black · white</td></tr>
+<tr><td><b>Morticia (mother)</b></td><td>Long black dress, long straight hair, pale skin</td><td>Black</td></tr>
+<tr><td><b>Enid (friend)</b></td><td>Bright and cute look</td><td><b>Rainbow in the show</b></td></tr>
+<tr><td>Bianca or Grandmama</td><td>Idea for the 4th</td><td>Black · navy</td></tr>
+</table></div>
+<div class="note"><b>Careful with Enid.</b> In the show she wears rainbow colours.
+That would break our "one forbidden colour" rule.
+Do a <b>black, white and silver version</b> instead — same shape, no colour.</div>
+
+<h2>Name tags — Korean school style</h2>
+<div class="card hi" data-tag="GOOD IDEA">
+<p>A Korean school name tag fits Wednesday very well. Nevermore is a school.
+This is better than the metal brooch we looked at before.</p>
+<div class="tbl-scroll"><table>
+<tr><th></th><th>School name tag</th><th>Metal brooch</th></tr>
+<tr><td>Fits the theme</td><td><b>Very well (school)</b></td><td>So-so</td></tr>
+<tr><td>Making time</td><td>3–5 days</td><td>2–3 weeks</td></tr>
+<tr><td>Price</td><td>Low</td><td>High</td></tr>
+<tr><td>Easy to read</td><td>Korean guests get it at once</td><td>Too small to read</td></tr>
+</table></div>
+<ul>
+<li>Spec: white base, black text. Left chest</li>
+<li>Text: <b>JUNG BEAUTY</b> (top) + name (below)</li>
+<li>Magnet type, so no pin holes in the dress</li>
+</ul>
 </div>`,
 
-`<h2>Buying and rental status</h2>
+`<h2>Buying and rental — all under review</h2>
+<div class="note"><b>Nothing is ordered yet.</b> Every item below is still being checked.</div>
 <div class="tbl-scroll"><table>
 <tr><th>Item</th><th>Type</th><th>Shop</th><th>Status</th></tr>
-<tr><td><b>Back wall</b> (black)</td><td>Buy</td><td><a href="https://smartstore.naver.com/moveonn/products/13713175192" target="_blank">moveonn</a></td><td><span class="pill p-go">Ordered 19 Aug</span></td></tr>
-<tr><td><b>Game props</b></td><td>Buy</td><td><a href="https://smartstore.naver.com/event-pang/products/4482000032" target="_blank">event-pang</a></td><td><span class="pill p-go">Ordered 19 Aug</span></td></tr>
-<tr><td><b>Screen</b> vertical</td><td>Rent</td><td><a href="https://smartstore.naver.com/jellarental/products/6111872711" target="_blank">Jella Rental</a></td><td><span class="pill p-wait">Checking</span></td></tr>
-<tr><td><b>Table 1800</b></td><td>Rent</td><td><a href="https://toprent.co.kr/product/%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%ED%96%89%EC%82%AC%EC%9A%A9-%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%93%80%EB%9D%BC%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%EB%8C%80%EC%97%AC-%EC%9E%84%EB%8C%80-1800/49/" target="_blank">Top Rent</a> · 9,000 KRW</td><td><span class="pill p-wait">Checking</span></td></tr>
-<tr><td>Table (option 2)</td><td>Rent</td><td>Naver · ID 53196368770</td><td><span class="pill p-wait">Compare</span></td></tr>
+<tr><td><b>Wall cloth</b> (black)</td><td>Buy</td><td><a href="https://smartstore.naver.com/moveonn/products/13713175192" target="_blank">moveonn</a></td><td><span class="pill p-wait">Review</span></td></tr>
+<tr><td><b>Game props</b></td><td>Buy</td><td><a href="https://smartstore.naver.com/event-pang/products/4482000032" target="_blank">event-pang</a></td><td><span class="pill p-wait">Review</span></td></tr>
+<tr><td><b>Screen</b> vertical</td><td>Rent</td><td><a href="https://smartstore.naver.com/jellarental/products/6111872711" target="_blank">Jella Rental</a></td><td><span class="pill p-wait">Review</span></td></tr>
+<tr><td><b>Main table 1800</b></td><td>Rent</td><td><a href="https://toprent.co.kr/product/%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%ED%96%89%EC%82%AC%EC%9A%A9-%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%93%80%EB%9D%BC%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A0%8C%ED%83%88-%EB%8C%80%EC%97%AC-%EC%9E%84%EB%8C%80-1800/49/" target="_blank">Top Rent</a> · 9,000 KRW</td><td><span class="pill p-wait">Review</span></td></tr>
+<tr><td>Table (option 2)</td><td>Rent</td><td>Naver · ID 53196368770</td><td><span class="pill p-wait">Review</span></td></tr>
 <tr><td>Halloween bean bags</td><td>Buy</td><td>Alibaba</td><td><span class="pill p-hot">Buy in Korea</span></td></tr>
 </table></div>
 <p style="font-size:12.5px;color:#9A9AA3">Top Rent 010-6251-9969 · size and delivery cost are not on the site</p>
 
-<h2>Not ordered yet</h2>
-<div class="tbl-scroll"><table>
-<tr><th>Item</th><th>Order by</th></tr>
-<tr><td>Staff costumes</td><td><b>Early Sep</b> — before Halloween sells out</td></tr>
-<tr><td>Name brooch (engraved)</td><td><b>Early Sep</b> — takes 2–3 weeks</td></tr>
-<tr><td>Table cloth (black matte, floor length)</td><td>Sep</td></tr>
-<tr><td>Bean bags × 12</td><td>Sep — buy in Korea</td></tr>
-<tr><td>Signage / A6 card / product display</td><td>Sep–Oct</td></tr>
-</table></div>
+<h2>Supply checklist</h2>
+
+<h3>1. Back wall</h3>
+<ul>
+<li class="k">Backdrop stand (3m bar + 2.5m poles)</li>
+<li class="k">Weights — 4+ sand bags or water bags</li>
+<li>Wall cloth 3.0 × 2.5m black matte</li>
+<li>Clamps × 6–8</li>
+<li>Big "정" lettering (to make)</li>
+</ul>
+
+<h3>2. Tables</h3>
+<ul>
+<li>Main table 1800 × 750 (rental)</li>
+<li>Black cloth for the main table — down to the floor</li>
+<li>Small table 600 × 450 (product display)</li>
+<li>Black cloth for the small table</li>
+</ul>
+
+<h3>3. Game</h3>
+<ul>
+<li>Foam board 1200 × 900mm</li>
+<li>Black paper cups × 6 + spares</li>
+<li>Bean bags 60–70mm × 12</li>
+<li>Cable ties and clamps to fix the board</li>
+</ul>
+
+<h3>4. Decor</h3>
+<ul>
+<li class="k"><b>Camellia flowers</b> (fake, dark red) — table and wall accent</li>
+<li>Candles (LED — real flame may not be allowed outdoors)</li>
+<li>Black lace runner</li>
+<li>Fake cobweb</li>
+<li>Product display stands (A4–A5)</li>
+</ul>
+
+<h3>5. Trick or treat</h3>
+<ul>
+<li class="k"><b>Sweets for 200</b> — choose black and red wrappers to match the theme</li>
+<li>Black bowl or basket for the sweets</li>
+</ul>
+
+<h3>6. Tools</h3>
+<ul>
+<li>Scissors · cutter</li>
+<li>Double-sided tape · strong tape · masking tape</li>
+<li>Rope · cable ties</li>
+<li>Tape measure · marker · spare batteries</li>
+<li>Wet wipes · bin bags</li>
+</ul>
+
+<h3>7. Staff</h3>
+<ul>
+<li>4 costumes (Wednesday · Morticia · Enid · 4th)</li>
+<li>4 school name tags + spares</li>
+<li>Make-up (pale base, dark lip)</li>
+</ul>
 
 <h2>Bean bags, not balls</h2>
 <div class="note"><b>Our booth is outdoors on the 3rd floor.</b> Balls roll away and fall down the stairs.
@@ -571,30 +783,47 @@ The bottom is not used for the game, so it becomes our brand space. Nothing is w
 <tr><td>Pick up</td><td>Falls in place</td><td>Rolls everywhere</td></tr>
 <tr><td>3F outdoor</td><td>Safe</td><td><b>May be lost</b></td></tr>
 </table></div>
-<p style="font-size:13.5px;color:#8A8A92">We need only 12. Alibaba has a high minimum order.
-Buy in Korea instead. If the cup is 90mm, the bean bag should be 60–70mm.</p>
+<p style="font-size:13.5px;color:#66666F">We need only 12. Alibaba has a high minimum order. Buy in Korea.</p>
 
 <h2>Ask this before you rent</h2>
 <ul>
 <li class="k"><b>3rd floor carry-up</b> — is there a lift? This changes the price a lot</li>
-<li>Total price = rent + delivery + setup + pick up (delivery can cost more than the rent)</li>
+<li>Total price = rent + delivery + setup + pick up</li>
 <li>Delivery to Itaewon — the venue is on a hill with small roads</li>
 <li>Pick up time — the event ends at 22:00. If they cannot collect at night, we need 31 Oct return</li>
 </ul>
-<div class="note">Book both rentals (screen and table) for <b>29 Oct delivery → 31 Oct return</b>.
-One trip instead of two.</div>`,
+<div class="note">Book both rentals for <b>29 Oct delivery → 31 Oct return</b>. One trip instead of two.</div>`,
 
-`<h2>Door gift — 200 guests</h2>
-<div class="card hi" data-tag="SHORT BY 35">
-<p>Korea can make <b>65 bubble 30ml</b>, not 100. So we are 35 short.</p>
+`<h2>Confirmed by the Singapore team <span class="pill p-done">CONFIRMED</span></h2>
+
+<h3>Goodie bag</h3>
+<ul>
+<li>Octopus guasha</li>
+<li>Toner 200ml</li>
+</ul>
+
+<h3>Booth display</h3>
+<ul>
+<li class="k"><b>Hair oil</b> — good for guests going straight home. Do not push it on guests going out after</li>
+<li>Face yoga instructions</li>
+<li>Guasha instructions</li>
+<li class="k"><b>PR card</b> — do not print the promo terms. Put a <b>Linktree QR code</b> only (Yixuan)</li>
+</ul>
+<div class="note">Keeping the promo terms off the card is the right call. Terms change, print does not.
+With a QR we can update the landing page even after the event.</div>
+
+<h2>Door gift — 200 guests</h2>
 <div class="tbl-scroll"><table>
-<tr><td>7 Sec Camellia (everyone)</td><td style="text-align:right"><b>200</b></td></tr>
-<tr><td>Bubble cleanser 30ml (Korea)</td><td style="text-align:right">65</td></tr>
-<tr><td>Bubble cleanser (SG)</td><td style="text-align:right">50</td></tr>
-<tr><td>No Wash</td><td style="text-align:right">50</td></tr>
-<tr><td><b>Second item total</b></td><td style="text-align:right"><b style="color:#A80D26">165 / 200</b></td></tr>
+<tr><th></th><th>Option 1</th><th>Option 2</th></tr>
+<tr><td>7 Sec Camellia</td><td>200</td><td>200</td></tr>
+<tr><td>Bubble cleanser (made in Korea)</td><td>100 → <b>only 65</b></td><td>—</td></tr>
+<tr><td>Bubble cleanser (from SG)</td><td>50</td><td>—</td></tr>
+<tr><td>No Wash</td><td>50</td><td>100</td></tr>
+<tr><td><b>Second item total</b></td><td><b style="color:#A80D26">165 / 200</b></td><td>100 / 200</td></tr>
 </table></div>
-<p style="font-size:13.5px;color:#8A8A92">→ 35 guests get only the 7 Sec Camellia</p>
+
+<div class="card hi" data-tag="SHORT BY 35">
+<p>Korea can make <b>65 bubble 30ml</b>, not 100. So we are <b>35 short</b>.</p>
 </div>
 
 <h3>How to fix the gap</h3>
@@ -607,25 +836,24 @@ One trip instead of two.</div>`,
 <div class="ab"><b>C. Give sachets to the last 35</b>
 <div class="pro">No extra buying</div>
 <div class="con">Looks cheap. People will notice</div></div>
-<div class="note"><b>Try A first, then B.</b> C is the last option. Creators and VIPs are in the room.
-If 35 people get something different, everyone sees it.</div>
+<div class="note"><b>Try A first, then B.</b> C is the last option.</div>
 
-<h2>Game and prizes</h2>
-<p style="color:#66666F;font-size:14px">Throw a bean bag into a red cup on the black wall. 3 tries each.
+<h2>Game prizes</h2>
+<p style="color:#66666F;font-size:14px">Throw a bean bag into a cup on the black wall. 3 tries each.
 If it lands in a cup, they win that grade. If not, they get a sachet.</p>
 <div class="tbl-scroll"><table>
 <tr><th>Grade</th><th>Height</th><th>Cups</th><th>Planned prize</th></tr>
-<tr><td><b>A</b></td><td>1.8m</td><td>1</td><td>Serum (top)</td></tr>
-<tr><td><b>B</b></td><td>1.5m</td><td>2</td><td>Shampoo / Camellia 500ml</td></tr>
-<tr><td><b>C</b></td><td>1.2m</td><td>3</td><td>Toner / No Wash</td></tr>
+<tr><td><b>A</b></td><td>1.8m</td><td>1</td><td><b style="color:#A80D26">Open</b> — serum if we have it</td></tr>
+<tr><td><b>B</b></td><td>1.5m</td><td>2</td><td>Camellia 500ml / Shampoo</td></tr>
+<tr><td><b>C</b></td><td>1.2m</td><td>3</td><td>Toner 200ml / No Wash 200ml</td></tr>
 </table></div>
 <div class="note">Write only <b>A / B / C</b> on the cups, not product names.
 Then we can swap a product when stock runs out and no one notices.</div>
 
-<h3>Prizes we have</h3>
+<h3>What we have</h3>
 <ul>
 <li>No Wash 200ml × 20 · Camellia 500ml × 20 · Toner 200ml × 20</li>
-<li>Toner mini 50ml × 100</li>
+<li>Toner mini 50ml × 100 <span style="color:#66666F">(Korea stock · Lora)</span></li>
 <li>Camellia sachet × 200 (for non-winners)</li>
 </ul>
 
@@ -634,18 +862,11 @@ Then we can swap a product when stock runs out and no one notices.</div>
 <tr><th>Product</th><th>Check</th><th>Use</th></tr>
 <tr><td>7 Sec Camellia 500ml</td><td>Quantity</td><td>Prize B</td></tr>
 <tr><td><b>Shampoo</b></td><td>Any unsold stock?</td><td>Prize B — clears old stock</td></tr>
-<tr><td><b>Serum</b></td><td>Quantity</td><td>Prize A or KOL kit</td></tr>
+<tr><td><b>Serum</b></td><td>Quantity</td><td>Prize A — empty right now</td></tr>
 <tr><td><b>CO2 mask</b></td><td>Can we demo it?</td><td>Live experience</td></tr>
 <tr><td>No Wash / Toner</td><td>Quantity</td><td>Prize C</td></tr>
 </table></div>
-<div class="note"><b>Check the expiry date.</b> Use only items with 12+ months left from 30 Oct.
-If a creator gets a short-dated product, it becomes content.
-Items without a box feel cheap as a prize.</div>
-
-<h3>CO2 mask: demo, not prize</h3>
-<div class="ab win"><b>Live demo at the booth</b>
-<div class="pro">The booth becomes a place to try, not just take. Better for the guest vote</div>
-<div class="con">Needs one staff member full time, plus cleaning</div></div>`,
+<div class="note"><b>Check the expiry date.</b> Use only items with 12+ months left from 30 Oct.</div>`,
 
 `<h2>Host deadlines</h2>
 <div class="tbl-scroll"><table>
@@ -654,32 +875,34 @@ Items without a box feel cheap as a prize.</div>
 <tr><td>18 Sep</td><td>Booth design concept</td><td><span class="pill p-wait">open</span></td></tr>
 <tr><td>9 Oct</td><td>Staff names · costumes · samples</td><td><span class="pill p-wait">open</span></td></tr>
 <tr><td>16 Oct</td><td>Power needs</td><td><span class="pill p-wait">add screen W</span></td></tr>
-<tr><td>23 Oct</td><td>Load-in details</td><td><span class="pill p-wait">open</span></td></tr>
+<tr><td>23 Oct</td><td>Load-in details</td><td><span class="pill p-wait">ask about tying the stand</span></td></tr>
 <tr><td><b>30 Oct</b></td><td>Event day · set up 16:00</td><td></td></tr>
 </table></div>
 
 <h2>Action items</h2>
 <div class="tbl-scroll"><table>
 <tr><th>#</th><th>Task</th><th>By</th></tr>
-<tr><td>1</td><td><b>Confirm we join</b> + name a contact<br><span style="color:#66666F;font-size:12.5px">Also ask: is there a lift to 3F?</span></td><td><b style="color:#A80D26">28 Aug</b></td></tr>
-<tr><td>2</td><td>Check the back wall when it arrives — size, matte, stand</td><td>Aug</td></tr>
+<tr><td>1</td><td><b>Confirm we join</b> + name a contact<br><span style="color:#66666F;font-size:12.5px">Also ask: lift to 3F? can we tie the stand to a rail?</span></td><td><b style="color:#A80D26">28 Aug</b></td></tr>
+<tr><td>2</td><td><b>Decide how to fix the back wall</b> — stand + weights</td><td>Aug</td></tr>
 <tr><td>3</td><td><b>Check our stock</b> — Camellia / Shampoo / Serum / CO2</td><td>Aug</td></tr>
 <tr><td>4</td><td>Door gift gap — ask SG for 85</td><td>Aug</td></tr>
-<tr><td>5</td><td>Start making 65 bubble 30ml</td><td>Early Sep</td></tr>
-<tr><td>6</td><td>Set staff number → <b>order costumes and brooches</b></td><td><b>Early Sep</b></td></tr>
-<tr><td>7</td><td>Book rentals (screen, table) with 3F carry-up</td><td>Sep</td></tr>
-<tr><td>8</td><td>Make the 9:16 loop video (no sound, subtitles)</td><td>Sep–Oct</td></tr>
-<tr><td>9</td><td>Get toner from Korea stock</td><td>Sep</td></tr>
-<tr><td>10</td><td>Pack KOL PR kits · get A6 card from Yixuan</td><td>Oct</td></tr>
+<tr><td>5</td><td>Design the "정" lettering + cup layout</td><td>Early Sep</td></tr>
+<tr><td>6</td><td>Start making 65 bubble 30ml</td><td>Early Sep</td></tr>
+<tr><td>7</td><td>Pick the 4 staff → order costumes and name tags</td><td><b>Early Sep</b></td></tr>
+<tr><td>8</td><td>Book rentals with 3F carry-up</td><td>Sep</td></tr>
+<tr><td>9</td><td>Edit the loop video (Reels + product, no sound, subtitles)</td><td>Sep–Oct</td></tr>
+<tr><td>10</td><td>Buy sweets, camellia flowers, decor</td><td>Oct</td></tr>
+<tr><td>11</td><td>Build the game board (cups already on it)</td><td>Mid Oct</td></tr>
 </table></div>
 
 <h2>Blocked — we need a decision</h2>
 <div class="card hi" data-tag="DECISIONS NEEDED">
 <ul>
-<li class="k"><b>How many staff?</b> We cannot order costumes or brooches without this. Brooches take 2–3 weeks, so early Sep is the limit</li>
+<li class="k"><b>The 4 staff</b> — we cannot order costumes or name tags until this is set</li>
 <li class="k"><b>Door gift option</b> — depends on whether SG can send 85</li>
-<li class="k"><b>Which side is the booth front?</b> The back wall size depends on this</li>
-<li class="k"><b>Our product stock</b> — prize grades A/B/C depend on it</li>
+<li class="k"><b>Which side is the booth front?</b> The wall size depends on this</li>
+<li class="k"><b>Prize A</b> — if we have no serum, the top cup is empty</li>
+<li class="k"><b>Can we tie the stand?</b> The stand spec depends on the answer</li>
 </ul>
 </div>`
 ]}
